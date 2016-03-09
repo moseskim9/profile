@@ -1,0 +1,93 @@
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  color: #7D7D7D;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(210, 216, 216);
+}
+
+a:hover {
+  color:#DD5555;
+
+}
+
+h1 {
+  color:#DD5555;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div {
+  border-radius: 5px;
+  box-shadow: 10px auto;
+
+}
+
+p {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 100;
+  margin-bottom: 25px;
+
+}
+
+.container {
+  width: 500px;   /* Set width*/
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+
+.card {
+  background-color: white;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#seeforyourself {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: #DD5555;
+  margin: 30 auto;
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+td {
+padding: 10px;}
+
+.image-reducer {
+  width: 80px;
+}
